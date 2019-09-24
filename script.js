@@ -9,7 +9,7 @@ function init() {
     canvas.height = 500;
 
     ctx.fillStyle = 'red';
-    ctx.fillRect(0, 0, 50, 50);
+    ctx.fillRect(10, 10, 100, 100);
 
     canvas.addEventListener('mousemove', function (evt) {
         mousePos = getMousePos(canvas, evt);
